@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		107832CD24459EC50087075F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107832CC24459EC50087075F /* CustomButton.swift */; };
+		107832CF24459FB50087075F /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107832CE24459FB50087075F /* Payment.swift */; };
+		107832D12445A2970087075F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107832D02445A2970087075F /* Constants.swift */; };
+		107832D32445B74E0087075F /* PaymentDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107832D22445B74E0087075F /* PaymentDataTableViewController.swift */; };
+		107832D52445BD2A0087075F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107832D42445BD2A0087075F /* CustomTextField.swift */; };
+		107832D72445C4970087075F /* MonthYearPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107832D62445C4970087075F /* MonthYearPicker.swift */; };
+		1079945924477679001ED121 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079945824477679001ED121 /* Helper.swift */; };
+		1079945D244788E3001ED121 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079945C244788E3001ED121 /* PaymentViewController.swift */; };
+		1079946024479068001ED121 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079945F24479068001ED121 /* Service.swift */; };
 		108C9FCC2444ECAE00189D5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108C9FCB2444ECAE00189D5E /* AppDelegate.swift */; };
 		108C9FCE2444ECAE00189D5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108C9FCD2444ECAE00189D5E /* SceneDelegate.swift */; };
-		108C9FD02444ECAE00189D5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108C9FCF2444ECAE00189D5E /* ViewController.swift */; };
 		108C9FD32444ECAE00189D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108C9FD12444ECAE00189D5E /* Main.storyboard */; };
 		108C9FD52444ECAF00189D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108C9FD42444ECAF00189D5E /* Assets.xcassets */; };
 		108C9FD82444ECAF00189D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108C9FD62444ECAF00189D5E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		107832CC24459EC50087075F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		107832CE24459FB50087075F /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		107832D02445A2970087075F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		107832D22445B74E0087075F /* PaymentDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDataTableViewController.swift; sourceTree = "<group>"; };
+		107832D42445BD2A0087075F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		107832D62445C4970087075F /* MonthYearPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthYearPicker.swift; sourceTree = "<group>"; };
+		1079945824477679001ED121 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1079945C244788E3001ED121 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		1079945F24479068001ED121 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		108C9FC82444ECAE00189D5E /* TakeMyMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeMyMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		108C9FCB2444ECAE00189D5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		108C9FCD2444ECAE00189D5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		108C9FCF2444ECAE00189D5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		108C9FD22444ECAE00189D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		108C9FD42444ECAF00189D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		108C9FD72444ECAF00189D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +53,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		107832C924453B5A0087075F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				107832D22445B74E0087075F /* PaymentDataTableViewController.swift */,
+				1079945C244788E3001ED121 /* PaymentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		107832CA24453B650087075F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				107832CC24459EC50087075F /* CustomButton.swift */,
+				107832D42445BD2A0087075F /* CustomTextField.swift */,
+				107832D62445C4970087075F /* MonthYearPicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		107832CB24453B680087075F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				107832CE24459FB50087075F /* Payment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1079945E2447905B001ED121 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1079945F24479068001ED121 /* Service.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		108C9FBF2444ECAE00189D5E = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +107,18 @@
 		108C9FCA2444ECAE00189D5E /* TakeMyMoney */ = {
 			isa = PBXGroup;
 			children = (
+				1079945E2447905B001ED121 /* Services */,
+				107832CB24453B680087075F /* Model */,
+				107832CA24453B650087075F /* View */,
+				107832C924453B5A0087075F /* Controller */,
 				108C9FCB2444ECAE00189D5E /* AppDelegate.swift */,
 				108C9FCD2444ECAE00189D5E /* SceneDelegate.swift */,
-				108C9FCF2444ECAE00189D5E /* ViewController.swift */,
 				108C9FD12444ECAE00189D5E /* Main.storyboard */,
 				108C9FD42444ECAF00189D5E /* Assets.xcassets */,
 				108C9FD62444ECAF00189D5E /* LaunchScreen.storyboard */,
 				108C9FD92444ECAF00189D5E /* Info.plist */,
+				107832D02445A2970087075F /* Constants.swift */,
+				1079945824477679001ED121 /* Helper.swift */,
 			);
 			path = TakeMyMoney;
 			sourceTree = "<group>";
@@ -138,9 +194,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				108C9FD02444ECAE00189D5E /* ViewController.swift in Sources */,
+				107832D52445BD2A0087075F /* CustomTextField.swift in Sources */,
+				107832D12445A2970087075F /* Constants.swift in Sources */,
 				108C9FCC2444ECAE00189D5E /* AppDelegate.swift in Sources */,
 				108C9FCE2444ECAE00189D5E /* SceneDelegate.swift in Sources */,
+				107832CF24459FB50087075F /* Payment.swift in Sources */,
+				1079945924477679001ED121 /* Helper.swift in Sources */,
+				107832D72445C4970087075F /* MonthYearPicker.swift in Sources */,
+				1079945D244788E3001ED121 /* PaymentViewController.swift in Sources */,
+				1079946024479068001ED121 /* Service.swift in Sources */,
+				107832D32445B74E0087075F /* PaymentDataTableViewController.swift in Sources */,
+				107832CD24459EC50087075F /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
